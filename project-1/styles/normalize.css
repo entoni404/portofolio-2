@@ -1,0 +1,65 @@
+/*============================================================
+                        V A R I A B L E S
+  ============================================================*/
+
+:root {
+  /*================================================
+                    C O L O R
+    ================================================*/
+
+  --white-primary: #fff;
+  --black-primary: black;
+
+  --gray-secondary: rgba(231, 236, 250);
+  --dark-gray-secondary: rgb(196, 201, 214);
+  --pink-secondary: rgba(244, 82, 130);
+  --blue-secondary: rgba(0, 132, 255);
+
+  /*================================================
+                    F O N T
+    ================================================*/
+
+  --font-family-primary: "CircularStd", sans-serif;
+}
+
+/*============================================================
+                    G L O B A L
+  ===========================================================*/
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0 solid;
+}
+html {
+  line-height: 1;
+  -webkit-text-size-adjust: 100%;
+}
+
+body,
+header,
+main,
+section,
+footer,
+strong,
+span,
+ul,
+li,
+img,
+svg,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button,
+div {
+  font-family: var(--font-family-primary);
+  font-weight: 400;
+}

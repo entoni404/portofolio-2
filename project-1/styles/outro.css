@@ -1,0 +1,33 @@
+.outro {
+  margin-top: 7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.outro .h2 {
+  width: 40%;
+  margin-right: 4rem;
+}
+.outro h2 {
+  font-weight: 400;
+  font-size: 2.25rem;
+  margin-bottom: 3rem;
+  line-height: 2.5rem;
+}
+.outro .p {
+  width: 60%;
+  margin-top: 1.4rem;
+}
+.outro p,
+.outro span,
+.outro a {
+  line-height: 2rem;
+  font-weight: 500;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+.outro span {
+  color: var(--pink-secondary);
+}
+.outro a {
+  color: var(--blue-secondary);
+}

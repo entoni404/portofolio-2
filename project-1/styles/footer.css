@@ -1,0 +1,37 @@
+.footer .top-m {
+  margin-top: 6rem;
+}
+.endbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: var(--gray-secondary);
+  color: var(--gray-secondary);
+}
+.endbar .email-link {
+  color: var(--dark-gray-secondary);
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-left: 7.5rem;
+  padding-bottom: 0.5rem;
+}
+.endbar .social {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.endbar .icon-2 {
+  width: 1.48rem;
+  color: var(--dark-gray-secondary);
+}
+.endbar .icon-link {
+  width: 1.2rem;
+  color: var(--dark-gray-secondary);
+  display: inline-block;
+}

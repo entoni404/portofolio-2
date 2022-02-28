@@ -1,0 +1,11 @@
+.main {
+  padding-top: 4.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-width: 100vh;
+}
+.section {
+  padding-top: 5rem;
+  width: 100%;
+}
